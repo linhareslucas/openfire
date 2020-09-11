@@ -1,5 +1,5 @@
 FROM openjdk:8-jdk-alpine
-LABEL Author=lclinhares@hotmail.com
+LABEL Author=lclinhares@hotmail.com \
       Description="SRVOpenfire"
       
 ENV OPENFIRE_VERSION=4.5.3\
