@@ -1,7 +1,7 @@
 FROM openjdk:8-jdk-alpine
-MAINTAINER linhares.telessaude@gmail.com
-
-LABEL description="SRVOpenfire"
+LABEL Author=lclinhares@hotmail.com
+      Description="SRVOpenfire"
+      
 ENV OPENFIRE_VERSION=4.5.3\
     OPENFIRE_USER=openfire \
     OPENFIRE_DATA_DIR=/var/lib/openfire \
