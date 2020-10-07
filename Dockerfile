@@ -17,6 +17,3 @@ USER root
 CMD java -server -DopenfireHome=${DAEMON_DIR} \
  -Dopenfire.lib.dir=${DAEMON_LIB} -Dlog4j.configurationFile=${DAEMON_LIB}/log4j2.xml -classpath ${DAEMON_LIB}/startup.jar\
  -jar ${DAEMON_LIB}/startup.jar
-
-
-
