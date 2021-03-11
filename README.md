@@ -1,4 +1,4 @@
-# Openfire IM Server 4.6.0
+# Openfire IM Server 4.6.2
 
 Image based on **Linux Alpine** with **OpenJDK 8** and the latest stable version of **Openfire**.
 
